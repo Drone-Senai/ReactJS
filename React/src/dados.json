@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "titulo": "Bem-vindo ao React",
+      "conteudo": "Aprenda a criar interfaces modernas com React.",
+      "imagem": "/fundo1.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Hooks e Componentes",
+      "conteudo": "Descubra o poder dos hooks para gerenciar estados.",
+      "imagem": "/fundo2.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Componentização",
+      "conteudo": "Reutilize componentes para criar aplicações escaláveis.",
+      "imagem": "/fundo3.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "Gerenciamento de Estado",
+      "conteudo": "Organize o fluxo de dados com contextos e Redux.",
+      "imagem": "/fundo4.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "Vite: O Futuro do React",
+      "conteudo": "Configure e otimize projetos com Vite.",
+      "imagem": "/fundo5.jpg"
+    }
+  ]
+      
