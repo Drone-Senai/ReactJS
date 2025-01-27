@@ -3,7 +3,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from 'lucide-react';
 import './App.css'
 import dados from './dados.json'
 
-function Conteudo ({ slideAtual, setSlideAtual }){
+function Conteudo ({ slideAtual ,  setSlideAtual }){
 
     const avancar = () => {
         if (slideAtual < dados.length - 1) {
@@ -24,7 +24,7 @@ function Conteudo ({ slideAtual, setSlideAtual }){
         <>
         
         <div className="Conteudo">
-        <button onClick={voltar}><ChevronLeftIcon /></button>
+        <button onClick={voltar}></button>
         <div className="text">
             <h1>{itemAtual.titulo}</h1>
             <p>{itemAtual.conteudo}</p>
@@ -32,7 +32,7 @@ function Conteudo ({ slideAtual, setSlideAtual }){
             </div>
         
             
-            <button onClick={avancar}><ChevronRightIcon /></button>
+            <button onClick={avancar}></button> 
       
         </div>
 
