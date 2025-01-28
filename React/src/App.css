@@ -29,41 +29,75 @@ body {
   align-items: center;
   overflow: hidden;
 }
+.text{
+  position: absolute;
+}
+
+/* Estilos específicos para os IDs */
+
+
+.Slide-0 h1{ 
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 8vh;
+  
+  
+}
+.Slide-0 .text p{ 
+  font-weight: 600;
+  font-size:17vh;
+  margin-top: -4vh;
+}
+
+.Slide-1 {
+ 
+  background-color: #387bd3; 
+}
+
+.Slide-2 {
+  background-color: #00a65a; 
+}
+
+.Slide-3 {
+  background-color: #d35400; 
+}
+
+.Slide-4 {
+  background-color: #d35400;
+}
 
 button {
-
-  opacity:2;
+  opacity:0;
   background-color: rgba(255, 0, 0, 0);
   color: #fff;
   border: none;
   height: 100%;
   width: 100%;
-  border-radius: 8px;
   cursor: pointer;
 }
 
 
 .Conteudo {
   display:flex;
-;
+  ;
   align-items: center;
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(135deg, #004aad, #4f84cb);
   color: #fff;
   overflow: hidden;
 }
 
-.Slide {
+.feed {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: transparent;
  
+
 }
 
 /* COMPONENTE Cabecalho */
@@ -76,10 +110,10 @@ button {
   width: 80vw;
   padding: 10px 0;
   gap: 2vw;
-  background-color: #004aad;
+  background-color: transparent;
   border-radius: 10px;
   color: #fff;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .Cabecalho #logoCabecalho {
@@ -95,7 +129,7 @@ button {
 }
 
 .Cabecalho p {
-  background: linear-gradient(90deg, #004aad, #4f84cb);
+  background: linear-gradient(90deg, #004aad, #387bd3);
   color: #fff;
   height: 30px;
   width: 100px;

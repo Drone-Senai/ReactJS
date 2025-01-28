@@ -1,8 +1,8 @@
 [
     {
       "id": 1,
-      "titulo": "Bem-vindo ao React",
-      "conteudo": "Aprenda a criar interfaces modernas com React.",
+      "titulo": "Introdução ao",
+      "conteudo": "React.js",
       "imagem": "/fundo1.jpg"
     },
     {

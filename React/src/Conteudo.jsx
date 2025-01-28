@@ -1,5 +1,3 @@
-
-import { ChevronLeftIcon, ChevronRightIcon } from 'lucide-react';
 import './App.css'
 import dados from './dados.json'
 

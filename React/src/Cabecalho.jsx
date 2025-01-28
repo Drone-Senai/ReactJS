@@ -1,7 +1,6 @@
 import './App.css'
 import logo from './assets/logo.svg';
 
-
 function Cabecalho({slideAtual}){
 
     return (
@@ -9,7 +8,7 @@ function Cabecalho({slideAtual}){
         <div className='Cabecalho'>
             <img src={logo} alt="Logo" id='logoCabecalho' />
             <hr />
-            <p>Page {slideAtual + 1}</p>
+            <p>Slide {slideAtual + 1}</p>
         </div>
 
     </>

@@ -11,7 +11,8 @@ function App() {
 
   return (
     <>
-    <div className="Slide" 
+    <div 
+        className={` feed  Slide-${slideAtual}`} 
     style={{
       backgroundImage: `url(${itemAtual.imagem})`,
     }}
