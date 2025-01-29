@@ -48,24 +48,104 @@ body {
   font-weight: 600;
   font-size:17vh;
   margin-top: -4vh;
+
+    display: inline-block;
+    border-right: 4px solid rgb(255, 255, 255);
+    padding-right: 2px;
+    animation: blink 2s infinite;
 }
 
-.Slide-1 {
- 
-  background-color: #387bd3; 
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
 }
 
-.Slide-2 {
-  background-color: #00a65a; 
+
+
+.Slide-1 .text{
+margin-right: 50vw;
+}
+.Slide-1 h1{ 
+  display: flex;
+  justify-self: left;
+  font-weight: 600;
+  font-size: 7vh;
+}
+.Slide-1 .text p{ 
+  font-weight: 300;
+  width: 30ch;
+  font-size:4vh;
+  margin-top: 2vh;
+  
 }
 
-.Slide-3 {
-  background-color: #d35400; 
-}
 
-.Slide-4 {
-  background-color: #d35400;
-}
+.Slide-2 .text{
+  margin-right: 40vw;
+  }
+  .Slide-2 h1{ 
+    display: flex;
+    justify-self: left;
+    font-weight: 600;
+    font-size: 7vh;
+  }
+  .Slide-2 .text p{ 
+    font-weight: 300;
+    width: 40ch;
+    font-size:4vh;
+    margin-top: 2vh;
+  }
+  
+
+  .Slide-3 .text{
+    margin-right: 50vw;
+    }
+  .Slide-3 h1{ 
+      display: flex;
+      justify-self: left;
+      font-weight: 600;
+      font-size: 7vh;
+    }
+  .Slide-3 .text p{ 
+      font-weight: 300;
+      width: 30ch;
+      font-size:4vh;
+      margin-top: 2vh;
+    }
+
+    .Slide-4 .text{
+      margin-right: 40vw;
+      }
+    .Slide-4 h1{ 
+        display: flex;
+        justify-self: left;
+        font-weight: 600;
+        font-size: 7vh;
+      }
+    .Slide-4 .text p{ 
+        font-weight: 300;
+        width: 40ch;
+        font-size:4vh;
+        margin-top: 2vh;
+      }
+  
+      .Slide-5 .text{
+        margin-right: 44vw;
+        }
+      .Slide-5 h1{ 
+          display: flex;
+          justify-self: left;
+          font-weight: 600;
+          font-size: 7vh;
+        }
+      .Slide-5 .text p{ 
+          font-weight: 300;
+          width: 40ch;
+          font-size:4vh;
+          margin-top: 2vh;
+        }
+    
 
 button {
   opacity:0;
@@ -106,7 +186,7 @@ button {
   position: absolute;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 41%;
+  margin-bottom: 43%;
   width: 80vw;
   padding: 10px 0;
   gap: 2vw;

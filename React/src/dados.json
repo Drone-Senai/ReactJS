@@ -2,32 +2,44 @@
     {
       "id": 1,
       "titulo": "Introdução ao",
-      "conteudo": "React.js",
+      "conteudo": " React.js",
       "imagem": "/fundo1.jpg"
     },
     {
       "id": 2,
-      "titulo": "Hooks e Componentes",
-      "conteudo": "Descubra o poder dos hooks para gerenciar estados.",
+      "titulo": "React - O que é?",
+      "conteudo": " O ReactJS é uma biblioteca JavaScript criada pelo Facebook, projetada para criar interfaces de usuário reutilizáveis por meio de componentes e otimizar os elementos necessários em vez de renderizar toda a página.",
       "imagem": "/fundo2.jpg"
     },
     {
       "id": 3,
-      "titulo": "Componentização",
-      "conteudo": "Reutilize componentes para criar aplicações escaláveis.",
+      "titulo": "Componentes e Reutilização",
+      "conteudo": " Uma função que o React é bom, é delimitando padrões, ou seja, criando blocos de códigos que vão sempre se repetir, facilitando muito o trabalho do programador, além de simplificar, facilitar e organizar o código, evitado a repetição de códigos extensos .",
       "imagem": "/fundo3.jpg"
     },
     {
       "id": 4,
-      "titulo": "Gerenciamento de Estado",
-      "conteudo": "Organize o fluxo de dados com contextos e Redux.",
+      "titulo": "JSX",
+      "conteudo": " O JSX é um aquivo usado no React e em outras frameworks, na qual ele cria uma leitura bem mais facilitada, conseguindo implementar a maioria dos termos e forma de uso de HTML no codigo JS. E é bom ressaltar, que o JSX não é obrigatório nos códigos, mas muito bem vindo",
       "imagem": "/fundo4.jpg"
     },
     {
       "id": 5,
-      "titulo": "Vite: O Futuro do React",
-      "conteudo": "Configure e otimize projetos com Vite.",
+      "titulo": "Props",
+      "conteudo": " Props ou Propriedades que servem para passar dados de um pai para um filho. Para passar esses dados é necessário no elemento pai haver estes dados seja usando varivéis, json, banco de dados ou apenas declarando no próprio componente.                                                  Após isso dentro da tag do componente você deve colocar o nome da props e seu valor. Enquanto no elemento filho segue-se o exemplo da imagem onde fala pra função que haverá props e dentro refencias com: props.nome_do_props",
       "imagem": "/fundo5.jpg"
+    },
+    {
+      "id": 6,
+      "titulo": "Estados",
+      "conteudo": " As variáveis de estado são um conceito importante no React. Elas permitem que os componentes armazenem informações internas que podem mudar ao longo do tempo. O estado é atualizado de forma dinâmica por meio de uma função própria, fornecida pelo React.",
+      "imagem": "/fundo6.svg"
+    },
+    {
+      "id": 7,
+      "titulo": "",
+      "conteudo": "",
+      "imagem": "/fundo7.svg"
     }
   ]
       
